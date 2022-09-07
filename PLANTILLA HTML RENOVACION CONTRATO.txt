@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renovación de contrato</title>
+  </head>
+  <body>
+<div class="body-img">
+          <img style height="250" width="250"  margin-top="25px" src="{!$Label.BaseUrl}/resource/LogoYoungLegends"/>
+        </div>
+
+      <div class="content"> 
+<p> Hola <b> AAAA </b> ,</p>
+<p> Te informamos de que el contrato del jugador BBBB ha sido <b> renovado </b>. Para mayor información, puedes clicar <a href="https://d7q000004t3hwuay-dev-ed.lightning.force.com/DDDD">aquí</a>.</p>
+<p>Este es un mail automático. Por favor, no responder. Gracias.</p>
+<p>Saludos,</p>
+
+
+        <div class="body-img">
+          <img style height="250" width="250" src="{!$Label.BaseUrl}/resource/LogoYoungLegends"/>
+        </div>
+
+        <p>Este correo electrónico y, en su caso, cualquier fichero anexo al mismo, puede contener información de carácter confidencial exclusivamente dirigida a su(s) destinatario(s). Queda prohibida su divulgación, copia o distribución a terceros sin la previa autorización de YOUNG LEGENDS SOCCER U.D,  DE SEGUROS Y REASEGUROS. Si ha recibido por error este correo, le rogamos proceda a su eliminación. Le agradecemos de antemano su colaboración.</p>
+      </div>
+
+    <style>
+      html, body {
+          height: 100%;
+          margin-left: 100px;
+      }
+      .wrapper {
+        min-height: 100%;
+        position: relative;
+      }
+      .header {
+        height: 60px;
+        width: 100%;
+      }
+      .wrapper .header img {
+        height: 30px;
+        width: 250px;
+        float: right;
+        margin-right: 130px;
+        margin-top: 20px;
+      }
+      h1 {
+        color: #33C9FF;
+        text-align: center;
+        text-size: 20px;
+      }
+      .wrapper .body-img img {
+        height: 30px;
+        width: 250px;
+        margin-top: 30px;
+      }
+      .footer {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        font-size: 10px;
+      }
+
+    @media screen and (max-width: 980px){
+      html, body {
+        height: 100%;
+        margin-left: 0px;
+      }
+      .wrapper{
+          margin: 0px;
+      }
+      .wrapper .header img {
+        float: center;
+        align: center;
+        margin-left: 0px;
+        width: 60%;
+      }
+      .wrapper .content h1{
+          width: 100%;
+          font-size: 15px;
+          text-align: center;
+      }
+      p {
+        margin-left: 0;
+        margin-top: 15px;
+      }
+      .wrapper .footer p {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      }
+    }
+    </style>
+
+  </body>
+</html>
